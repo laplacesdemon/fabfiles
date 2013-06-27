@@ -4,16 +4,16 @@ from fabric.contrib.console import confirm
 # enter the host names to run remotely
 # it can be more than one host
 # use ssh style. i.e solomon@ninja
-env.hosts = ['inanlarmobile.com']
+env.hosts = ['yourhost.com']
 
 # project related settings
 project_name = 'inanlar'
-remote_code_dir = '/srv/www/inanlar'
-git_clone = 'solomon@46.19.36.179:/home/solomon/inanlar_insaat_web.git'
+remote_code_dir = '/path/tp/remote/dir'
+git_clone = 'yourname@yourhost.com:repo.git'
 virtual_env_name = 'venv'
 
 # gunicorn details
-remote_gunicorn_pid = '/tmp/inanlar.pid'
+remote_gunicorn_pid = '/tmp/gunicorn.pid'
 
 ################################################
 # Local commands                               #

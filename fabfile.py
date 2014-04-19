@@ -7,7 +7,7 @@ from fabric.contrib.console import confirm
 env.hosts = ['yourhost.com']
 
 # project related settings
-project_name = 'inanlar'
+project_name = 'your-project-name'
 remote_code_dir = '/path/tp/remote/dir'
 git_clone = 'yourname@yourhost.com:repo.git'
 virtual_env_name = 'venv'
